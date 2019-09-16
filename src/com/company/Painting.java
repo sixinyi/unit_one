@@ -11,8 +11,8 @@ public class Painting {
          int area_of_window=15;
          int number_of_window=4;
          int total_area= length*width+2*length*height+2*width*height;
-         int area_need_to_be_paint= total_area-number_of_door*area_of_door-number_of_window*area_of_window;
-         int gallons_needed= area_need_to_be_paint/area_per_gallon;
-         System.out.print("you will need " + gallons_needed + "gallons of paint");
+         double area_need_to_be_paint= total_area-number_of_door*area_of_door-number_of_window*area_of_window;
+         double gallons_needed= area_need_to_be_paint/area_per_gallon;
+         System.out.print("you will need " + gallons_needed + " gallons of paint");
     }
 }
