@@ -10,6 +10,6 @@ public class PoundsToKilograms {
 
         double lbs=k.nextDouble();
         double kg=lbs/KG_TO_LBS;
-        System.out.print("pounds = "+kg+" kilograms");
+        System.out.print(lbs +"pounds = "+kg+" kilograms");
     }
 }
