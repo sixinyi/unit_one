@@ -19,6 +19,7 @@ public class FindTheAverage {
         outcome += v2;
         outcome += v3;
         outcome += v4;
+        outcome /=4;
         System.out.println("Average = "+ outcome);
     }
 }
